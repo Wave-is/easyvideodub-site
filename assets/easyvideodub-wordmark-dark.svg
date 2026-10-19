@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 765 108" role="img" aria-label="EasyVideoDub">
+<defs><linearGradient id="v" x1="0" x2="1"><stop offset="0" stop-color="#086CF9"/><stop offset="1" stop-color="#1358E9"/></linearGradient><linearGradient id="d" x1="0" x2="1"><stop offset="0" stop-color="#733AF3"/><stop offset="1" stop-color="#9C34F5"/></linearGradient></defs>
+<text x="3" y="82" font-family="Inter,Arial,sans-serif" font-size="92" font-weight="800" letter-spacing="-4" fill="#F7FBFF">Easy</text>
+<text x="208" y="82" font-family="Inter,Arial,sans-serif" font-size="92" font-weight="800" letter-spacing="-4" fill="url(#v)">Video</text>
+<text x="482" y="82" font-family="Inter,Arial,sans-serif" font-size="92" font-weight="800" letter-spacing="-4" fill="url(#d)">Dub</text>
+</svg>

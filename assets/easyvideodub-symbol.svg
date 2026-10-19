@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 136" role="img" aria-labelledby="title">
+<title id="title">EasyVideoDub — video speech bubble with audio waves</title>
+<defs>
+  <linearGradient id="main" x1="0.07" y1="0.05" x2="1" y2="1">
+    <stop offset="0" stop-color="#14BDF4"/><stop offset=".38" stop-color="#0876FA"/>
+    <stop offset=".74" stop-color="#2949F0"/><stop offset="1" stop-color="#9337F8"/>
+  </linearGradient>
+  <linearGradient id="shine" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#77DFFF" stop-opacity=".52"/>
+    <stop offset="1" stop-color="#76D9FF" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="play" x1="0" y1="0" x2=".8" y2="1">
+    <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#EDEAFF"/>
+  </linearGradient>
+</defs>
+<path fill="url(#main)" d="M47 6H98C119 6 137 24 137 47V73C137 97 118 111 95 111H60L27 131C22 134 17 129 19 124L25 106C14 100 7 89 7 74V48C7 24 24 6 47 6Z"/>
+<path fill="url(#shine)" d="M47 6H98C115 6 129 18 135 34C111 46 82 37 58 46C34 55 22 67 7 79V48C7 24 24 6 47 6Z"/>
+<path fill="#B4A3FF" opacity=".10" d="M50 111C75 94 96 100 137 74C137 97 118 111 95 111Z"/>
+<g fill="#FFFFFF" opacity=".83">
+  <rect x="21" y="57" width="7" height="18" rx="3.5"/>
+  <rect x="33" y="47" width="7.5" height="39" rx="3.75"/>
+  <rect x="46" y="55" width="7" height="24" rx="3.5"/>
+  <rect x="105" y="55" width="7" height="24" rx="3.5"/>
+  <rect x="118" y="47" width="7.5" height="39" rx="3.75"/>
+  <rect x="130" y="57" width="6" height="18" rx="3"/>
+</g>
+<path fill="url(#play)" d="M65 37C61 34 55 37 55 42V89C55 94 61 97 65 94L96 70C100 67 100 63 96 60L65 37Z"/>
+</svg>
