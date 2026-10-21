@@ -3,26 +3,68 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>EasyVideoDub — Privacy</title>
+<title>EasyVideoDub — Privacy Policy</title>
 <link rel="icon" href="assets/easyvideodub-symbol.svg">
 <style>
   body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; color:#101E3B; background:#F8F9FC; line-height:1.55; }
   .wrap { max-width: 760px; margin: 0 auto; padding: 24px 16px 40px; }
   a { color:#1765F5; }
+  h2 { margin-top: 28px; font-size: 20px; }
 </style>
 </head>
 <body>
 <div class="wrap">
   <p><a href="index.html">← EasyVideoDub</a></p>
-  <h1>Privacy</h1>
-  <p>EasyVideoDub (operated by MIRAMALO EOOD, Bulgaria) processes the videos, scripts and voice recordings that a customer sends us only to produce the dubbing the customer ordered.</p>
+  <h1>Privacy Policy</h1>
+  <p>EasyVideoDub is operated by MIRAMALO EOOD, Bulgaria (“we”). We process the videos, texts and voice recordings
+    that you give us only to produce the dubbing you order. Contact: <a href="mailto:founder@easyvideodub.com">founder@easyvideodub.com</a>.
+    See also our <a href="terms.html">Terms of Service</a>.</p>
+
+  <h2>What we process</h2>
   <ul>
-    <li>Voice cloning is used only for a person who has given recorded consent for their own voice.</li>
-    <li>Source videos are deleted after the order is delivered; finished audio tracks are kept for at least 30 days so the customer can download them again, then deleted unless the customer asks us to keep them.</li>
-    <li>We do not sell or share customer content. Processing uses cloud providers (Google Cloud) and our own servers.</li>
-    <li>Questions or deletion requests: <a href="mailto:founder@easyvideodub.com">founder@easyvideodub.com</a>.</li>
+    <li><b>Account:</b> your email address and sign-in data (Google Firebase Authentication).</li>
+    <li><b>Your content:</b> the videos you upload or link, their transcripts and translations, and the dubbed audio,
+      subtitles and texts we produce.</li>
+    <li><b>Your voice (optional):</b> if you choose to dub in your own voice, a short consent recording and a voice sample.
+      A copy of a voice is made only for the person who recorded their own consent.</li>
+    <li><b>Payments:</b> handled by Paddle (merchant of record). We do not see or store card details.</li>
   </ul>
-  <p>Last updated: 19 October 2026.</p>
+
+  <h2>YouTube API Services</h2>
+  <p>EasyVideoDub uses YouTube API Services. By connecting a YouTube channel or adding a YouTube video you agree to the
+    <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>, and Google’s handling of data is described in the
+    <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+  <ul>
+    <li><b>What we access:</b> with your permission (Google OAuth, scope <code>youtube.force-ssl</code>) we read your channel’s
+      name and ID and your videos’ titles, durations and languages, and — only when you click “Publish” — add subtitle tracks
+      as drafts and translated titles/descriptions to your own videos. We never make anything public on your behalf and never
+      upload or delete videos.</li>
+    <li><b>How we use it:</b> only to show your videos in EasyVideoDub, to dub the videos you choose and to publish the results
+      you approve to your own channel.</li>
+    <li><b>Storage:</b> the access token is encrypted (Google Cloud KMS). Video and channel details obtained from the API are
+      kept only while needed for your projects and are deleted or refreshed at least every 30 days.</li>
+    <li><b>Sharing:</b> we do not sell or share YouTube data with third parties.</li>
+    <li><b>Revoking access:</b> disconnect the channel in EasyVideoDub (Integrations) — we revoke our access at Google and delete
+      the token at once — or at any time at
+      <a href="https://security.google.com/settings/security/permissions">Google security settings</a>.</li>
+  </ul>
+
+  <h2>Storage and deletion</h2>
+  <ul>
+    <li>Source videos are deleted after the order is delivered; finished audio tracks and subtitles are kept for at least 30 days
+      so you can download them again, then deleted unless you ask us to keep them.</li>
+    <li>Your voice recordings and voice copy are deleted at once when you click “Delete my voice”; finished dubs stay.</li>
+    <li>You can ask us to delete your account and all data: <a href="mailto:founder@easyvideodub.com">founder@easyvideodub.com</a>.</li>
+  </ul>
+
+  <h2>Processors</h2>
+  <p>Google Cloud (hosting, storage, Vertex AI and Gemini for speech recognition, translation and speech), Google Firebase
+    (sign-in), Paddle (payments). We do not sell personal data and do not use your content to train AI models.</p>
+
+  <h2>AI-generated content</h2>
+  <p>Dubbed audio is generated with AI; the audio files we deliver are marked as AI-generated.</p>
+
+  <p>Last updated: 21 October 2026.</p>
 </div>
 </body>
 </html>
