@@ -23,7 +23,7 @@
   <h2>What we process</h2>
   <ul>
     <li><b>Account:</b> your email address and sign-in data (Google Firebase Authentication).</li>
-    <li><b>Your content:</b> the videos you upload or link, their transcripts and translations, and the dubbed audio,
+    <li><b>Your content:</b> the videos you upload, their transcripts and translations, and the dubbed audio,
       subtitles and texts we produce.</li>
     <li><b>Your voice (optional):</b> if you choose to dub in your own voice, a short consent recording and a voice sample.
       A copy of a voice is made only for the person who recorded their own consent.</li>
@@ -31,17 +31,19 @@
   </ul>
 
   <h2>YouTube API Services</h2>
-  <p>EasyVideoDub uses YouTube API Services. By connecting a YouTube channel or adding a YouTube video you agree to the
+  <p>EasyVideoDub uses YouTube API Services. By connecting a YouTube channel you agree to the
     <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>, and Google’s handling of data is described in the
     <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
   <ul>
     <li><b>What we access:</b> with your permission (Google OAuth, scope <code>youtube.force-ssl</code>) we read your channel’s
-      name and ID and your videos’ titles, durations and languages, and — only when you click “Publish” — add subtitle tracks
-      as drafts and translated titles/descriptions to your own videos. We never make anything public on your behalf and never
-      upload or delete videos.</li>
+      name and ID and your videos’ titles, thumbnails, durations and languages, and — only when you click “Publish translations”
+      for a video — add subtitle tracks and translated titles/descriptions to that video of your own channel. They are visible on
+      the video right away. We never upload or delete videos and never change a video’s privacy setting.</li>
+    <li><b>Video and audio:</b> we do not download or store YouTube video or audio. Dubbing uses the video file you upload.</li>
     <li><b>How we use it:</b> only to show your videos in EasyVideoDub, to dub the videos you choose and to publish the results
       you approve to your own channel.</li>
-    <li><b>Storage:</b> the access token is encrypted (Google Cloud KMS). Video and channel details obtained from the API are
+    <li><b>Storage:</b> the OAuth refresh token is encrypted (Google Cloud KMS); access tokens are not stored. Video and channel
+      details obtained from the API are
       kept only while needed for your projects and are deleted or refreshed at least every 30 days.</li>
     <li><b>Sharing:</b> we do not sell or share YouTube data with third parties.</li>
     <li><b>Revoking access:</b> disconnect the channel in EasyVideoDub (Integrations) — we revoke our access at Google and delete
@@ -64,7 +66,7 @@
   <h2>AI-generated content</h2>
   <p>Dubbed audio is generated with AI; the audio files we deliver are marked as AI-generated.</p>
 
-  <p>Last updated: 21 October 2026.</p>
+  <p>Last updated: 23 October 2026.</p>
 </div>
 </body>
 </html>
